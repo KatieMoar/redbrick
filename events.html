@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Red Brick || Gastropub</title>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css'>
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/07837de4a8.js" crossorigin="anonymous"></script>
+    </head>
+	<body class="eventBody flex">
+        <header class= "cardHeader flex">
+            <a href="home.html"><img class="headerLogo" src="images/Logo_Text.png" alt=""></a>
+            <nav>
+                <ul class="navLink">
+                    <li><a class="effect navEffect effectOne" href="menu.html"><span class="effect navEffect">Menu</span></a></li>
+                    <li><a class="effect navEffect effectOne" href="home.html#aboutUs"><span class="effect navEffect">About</span></a></li>
+                    <li><a class="effect navEffect effectOne" href=""><span class="effect navEffect">Reservations</span></a></li>
+                    <li><a class="effect navEffect effectOne" href=""><span class="effect navEffect">Events</span></a></li>
+                    <li><a class="effect navEffect effectOne" href="home.html#contactUs"><span class="effect navEffect">Contact</span></a></li>
+                </ul>
+            </nav>
+            <ul class="socials">
+                <li><a href="#"><i class="fab fa-facebook-f icon"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram icon"></i></a></li>
+            </ul>
+        </header>
+        <section class="eventMain flex">
+            <h2 class="blackFlip">Book Your Event!</h2>
+            <form>
+                <h3>Contact Information</h3>
+                <div class="eventContactInputs flex">
+                    <input type="text" name="eventPersonName" id="eventPersonName" placeholder="Name" required>
+                    <input type="email" name="eventEmail" id="eventEmail" placeholder="Email Address" required>
+                    <input type="tel" name="eventPhone" id="eventPhone" placeholder="Phone Number" required>
+                </div>
+                <h3>Your Event Details</h3> 
+                <div class="eventInputs">
+                    <div class="flex">
+                        <label for="eventNature">Reason for Event:</label>
+                        <span>ex. Birthday Party, Business Dinner etc.</span> 
+                         <input type="text" name="eventNature" id="eventNature" required>
+                    </div>
+                    <div class="eventDetailsBottom flex">
+                        <ul>
+                            <li><label for="eventNature">Date of Event:</label></li>
+                            <li><input type="date" name="eventDate" id="eventDate" required></li>
+                        </ul>
+                        <ul>
+                            <li><label for="startEventTime">Start Time:</label></li>
+                            <li><input type="time" name="startEventTime" id="startEventTime" required></li>
+                        </ul>
+                        <ul>
+                            <li><label for="endEventTime">End Time:</label></li>
+                            <li><input type="time" name="endEventTime" id="endEventTime" required></li>
+                        </ul>
+                        <ul>
+                            <li><label for="numberOfPeople">Number of People:</label></li>
+                            <li><input type="text" name="numberOfPeople" id="numberOfPeople" required></li>
+                        </ul>
+                        </div>
+                        <div class="eventMessageArea">
+                            <label for="additionalEventInformation">Anything else we should know?</label>
+                            <textarea name="eventMessage" placeholder=""></textarea>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+
+
+
+        <footer class="flex menuFooter">  
+            <section class="footerImage">
+                <img src="images/Just_Bricks_Logo.png">
+            </section>
+            <section class="footerNav">
+                <nav>
+                    <ul class="navLink flex">
+                        <li><a class="effect navEffect effectOne" href="menu.html"><span class="effect navEffect">Menu</span></a></li>
+                        <li><a class="effect navEffect effectOne" href="#aboutUs"><span class="effect navEffect">About</span></a></li>
+                        <li><a class="effect navEffect effectOne" href=""><span class="effect navEffect">Reservations</span></a></li>
+                        <li><a class="effect navEffect effectOne" href=""><span class="effect navEffect">Events</span></a></li>
+                        <li><a class="effect navEffect effectOne" href="#contactUs"><span class="effect navEffect">Contact</span></a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footerCopyright">
+                <p><i class="fa-solid fa-copyright"></i> KatieMoar Codes</p>
+            </section>
+        </footer>
+
+
+
+        <script type="text/javascript" src="js/menu.js"></script>
+	</body>
+</html>

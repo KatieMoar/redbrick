@@ -1,0 +1,36 @@
+/* -------------------------------------------- */
+/*                STYLE TEMPLATE                
+
+1 . Reset
+2 . Box Model Hack
+3 . Clearfix
+4 . Base Styles 
+    a. font imports
+    b. html font size declaration 
+    c. body font size and family
+5 . Container 
+    (A container that has a max width and sets the margin and padding for all of the sections to come)
+6 . Typography
+    (declarations of all different types of types)
+7 . Links
+8 . Header Section
+9 . Following Sections 
+10 . Footer Section
+11 . Specific Stylings 
+    a. List Styling
+    b. Button Styling
+12 . Utility 
+        (this inludes such things as spacing or grid / flex. This is a space for multi-use elements
+13 . Media Queries 
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------- */
